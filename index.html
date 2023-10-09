@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercitazione con classi</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Insert your Pet</h1>
+        <form id="petForm">
+          <label for="petName">Nome del tuo Pet</label>
+          <input type="text" placeholder="Pet name" id="petName" />
+
+          <label for="ownersName">Nome del proprietario</label>
+          <input type="text" placeholder="Owner name" id="ownersName" />
+
+          <label for="species">Specie</label>
+          <input type="text" placeholder="Specie" id="species" />
+
+          <label for="breed">Razza</label>
+          <input type="text" placeholder="Indica la razza" id="breed" />
+
+          <button>SAVE</button>
+        </form>
+      </section>
+      <section>
+        <h3>Lista Pet</h3>
+        <ul id="petList"></ul>
+      </section>
+    </main>
+    <script src="classi.js"></script>
+  </body>
+</html>
